@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   <body>
+        <!-- Add Custom tab on PDP page -->
+       <referenceBlock name="product.info.details">
+           <block class="Magento\Catalog\Block\Product\View" name="custom.tab" template="Pawan_CatalogSample::custom_tab.phtml" group="detailed_info" >
+               <arguments>
+                   <argument translate="true" name="title" xsi:type="string">Custom Tab</argument>
+               </arguments>
+           </block>
+       </referenceBlock>
+   </body>
+</page>
