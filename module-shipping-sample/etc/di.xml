@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+    <type name="Magento\Shipping\Model\Shipping">
+    	<plugin disabled="false" name="Disable_Shipping" sortOrder="10" type="Pawan\ShippingSample\Plugin\DisableShipping"/>
+	</type>
+</config>
