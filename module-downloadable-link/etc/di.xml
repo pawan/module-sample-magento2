@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Downloadable\Ui\DataProvider\Product\Form\Modifier\Links">
+        <plugin name="Downloadable_language_link" type="Pawan\DownloadableLink\Plugin\LanguageDownloadableLink" />
+    </type>
+    <type name="Magento\Downloadable\Ui\DataProvider\Product\Form\Modifier\Data\Links">
+        <plugin name="Downloadable_language_link_data" type="Pawan\DownloadableLink\Plugin\LinksDataPlugin" />
+    </type>
+</config>
