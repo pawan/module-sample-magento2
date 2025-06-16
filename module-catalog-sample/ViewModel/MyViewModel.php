@@ -1,6 +1,6 @@
 <?php
 
-namespace Pawan\ViewModel\ViewModel;
+namespace Pawan\CatalogSample\ViewModel;
 
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 
@@ -14,6 +14,6 @@ class MyViewModel implements ArgumentInterface
 
     public function getPostData()
     {
-        return "here";
+        return "Some data!";
     }
 }

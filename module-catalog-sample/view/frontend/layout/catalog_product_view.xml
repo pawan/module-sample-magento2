@@ -9,5 +9,20 @@
                </arguments>
            </block>
        </referenceBlock>
+       <!-- Use of view Model -->
+       <referenceBlock name="content">
+            <block class="Magento\Framework\View\Element\Template" name="category.attr" template="Pawan_CatalogSample::view_model.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Pawan\CatalogSample\ViewModel\MyViewModel</argument>
+                </arguments>
+            </block>
+         </referenceBlock>
+       <referenceBlock name="product.attributes">
+        <!-- change sort order for More Information tab -->
+            <arguments>
+                <argument name="sort_order" xsi:type="string">1</argument>
+            </arguments>
+        </referenceBlock>
+        <!-- for detail tab use `product.info.description`  -->
    </body>
 </page>
